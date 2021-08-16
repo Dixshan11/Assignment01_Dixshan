@@ -1,0 +1,100 @@
+
+[
+    {
+        "name":"Game of Throne",
+        "type":"Action",
+        "image":"photos/gameofthrone.jpg",
+        "episode":"Episode:14"
+        
+    },
+    {
+        "name":"Dexter",
+        "type":"Action",
+        "image":"photos/dexter.jpg",
+        "episode":"Episode:83"
+    },
+    {
+       "name":"Tintin",
+       "type":"Childern",
+       "image":"photos/tintin.jpg",
+       "episode":"Episode:84"
+    },
+    
+    {
+        "name":"Bear",
+        "type":"Animation",
+        "image":"photos/bear.jpg",
+        "episode":"Episode:90"
+    },
+    {
+        "name":"Blood Steel",
+        "type":"Adventure",
+        "image":"photos/knightsofbloodsteel.jpg",
+        "episode":"Episode:14"
+    }
+        ,
+    {
+       "name":"The Soldierking",
+       "type":"Animation",
+       "image":"photos/thesoldierking.jpg",
+       "episode":"Episode:13"
+    },
+    {
+       "name":"Avatar",
+       "type":"Advanture",
+       "image":"photos/avathar.jpg",
+       "episode":"Episode:1"
+    },
+    {
+        "name":"Spider Wick",
+        "type":"Children",
+        "image":"photos/spiderwick.jpg",
+        "episode":"Episode:1"
+     },
+    
+     {
+        "name":"Spider Man",
+        "type":"Adventure",
+        "image":"photos/spiderman.jpg",
+        "episode":"Episode:2" 
+     }
+
+     ,
+     {
+        "name":"Wonder Woman",
+        "type":"Adventure",
+        "image":"photos/wonderwoman1.jpg",
+        "episode":"Episode:1" 
+     },
+     {
+        "name":"Tom & Jerry",
+        "type":"Comedy",
+        "image":"photos/tomandjerry.jpg",
+        "episode":"Episode:100" 
+     },
+     {
+      "name":"Red",
+      "type":"Action",
+      "image":"photos/red.jpeg",
+      "episode":"Episode:1" 
+   },
+   {
+      "name":"Nanpan",
+      "type":"Comedy",
+      "image":"photos/nanpan.jpg",
+      "episode":"Episode:1" 
+   },
+   {
+      "name":"Joker",
+      "type":"Crime",
+      "image":"photos/joker.jpeg",
+      "episode":"Episode:2" 
+   },
+     {
+        "name":"Still Water",
+        "type":"Crime",
+        "image":"photos/stillwater.jpg",
+        "episode":"Episode:100" 
+     }
+
+    ]

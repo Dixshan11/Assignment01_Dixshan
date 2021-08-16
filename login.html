@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+
+  <!--boostrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- boostrap js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- font awsome -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4ffbec773a.js" crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <script src="jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="mainBackground">
+  <div class="widthFull min92h ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-mystle">
+      <a class="navbar-brand" id="title-nav" href="#" style="margin:0;">Show<b>Trackr</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item  ">
+            <a class="nav-link bor-box1 " href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bor-box2 " href="#">Add</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link bor-box3" href="#">Login </span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bor-box4" href="#">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  
+
+    <div id="loginbody">
+      <form style="padding-top:40px;">
+        <Span style="font-size:30px;font-weight: 900;">Log in</Span>
+        <div class="fontemail">
+          <input type="email" class="form-control inputmargin icon" name="email" id="loginemail" placeholder="Email">
+          <i class="fas fa-at"></i>
+        </div>
+        <div class="fontpassword">
+          <input type="password" class="form-control inputmargin icon " name="loginpassword" id="loginpassword"
+            placeholder="Password">
+          <i class="fas fa-key"></i>
+        </div>
+
+        <span id="errormessage" style="color:red"></span>
+        <button id="login" class="btn btn-success  btn-block inputmargin" style="font-weight: bold;">Log in</button>
+        <a href="#">Forget Your Password</a><br>
+        <span class="inputmargin lighttxt"> Don't have an account yet?</span>
+        <span id="signupinlogin"> Sign up </span> <br>
+        <p id="stright1"><span style="font-weight: bolder; font-size:small">or</span></p>
+        <button type="button" class="btn   btn-block " style="margin-top:6px;background-color:rgb(59, 89, 152);color: aliceblue;"><span>
+        <i class="fab fa-facebook-f"style="color: aliceblue;"></i></span > Sign in with Facebook</button>
+        <button type="button" class="btn  btn-block "style="margin-top:6px;background-color: rgb(221, 75, 57);color: aliceblue;"><span>
+          <i class="fab fa-google-plus-g" style="color: aliceblue;"></i></span> Sign in with Google</button>
+
+      </form>
+    </div>
+  </div>
+
+
+
+  <footer class="footer ">
+    <!-- To the right -->
+    <div class="footermove footerPadding" >
+      <!-- Default to the left -->
+      <div style="color: white; ">
+        A SATISFIED CUSTOMER IS THE BEST BUSINESS STRATEGY OF ALL.
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    // $("#login").click(function (e) {
+    //   e.preventDefault();
+
+    //   let text = localStorage.getItem("allusers");
+    //   let obj = JSON.parse(text);
+    //   alert(obj[1]["name"]);
+
+    //   var inputemail = document.getElementById("loginemail").value;
+    //   var inputpassword = document.getElementById("loginpassword").value;
+
+    //   for (var i = 0; i < users.length; i++) {
+    //     if (users[i]["email"] === inputemail && users[i]["password"] === inputpassword) {
+
+    //       alert("Successfull");
+    //       $("#errormessage").html("");
+    //       location.href = "index.html";
+    //       break;
+
+    //     } else {
+    //       if (inputemail === "" || inputpassword === "") {
+    //         $("#errormessage").html("");
+    //         $("#errormessage").html("please fill the filed");
+
+    //       }
+    //       else {
+    //         $("#errormessage").html("");
+    //         $("#errormessage").html("Invalid username or Password");
+
+    //       }
+    //     }
+    //   }
+
+    // });
+
+
+  </script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>

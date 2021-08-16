@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+
+    overflow-x: hidden;
+ 
+
+}
+
+.navbar {
+    box-shadow: 1px 3px 10px grey;
+}
+
+#title-nav {
+    background-color: rgb(255, 233, 57)!important;
+    padding: 10px 10px 10px 7px;
+}
+
+.nav-mystle {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* for nav bar buttons  */
+
+.navborder{
+    color: red;
+    border: 1px dotted black;
+    background: rgba(239, 239, 228, 0.84);
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+.bor-box.selected{
+    color: red;
+    border: 1px dotted red;
+    background: rgba(239, 239, 228, 0.84);
+    padding: 10px 10px 10px 10px;
+  }
+
+
+/* index.html */
+
+/* filer  letters  */
+
+.letterSearch span {
+ 
+    padding: 0px 3px 0px 0px;
+    font-size: 24px;
+}
+
+.search {
+    margin: 35px 0px 0px 0px;
+    padding:0px;
+
+}
+
+
+.letterSearch span:hover {
+    color: green;
+}
+
+.letterSearch {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding:0px;
+}
+
+/* search box in the main card  */
+
+.alignment {
+    position: relative;
+    height: 46px;
+    margin-bottom: 16px;
+}
+
+/* for text box in the card search */
+
+.epic-searchbox {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    border: none;
+    background-color:rgb(246, 246, 246);
+    margin-right: 40px;
+}
+
+/* .epic-searchbox:focus{
+    border:white;
+} */
+
+/* episodes div  */
+
+.row {
+    margin-left: 13px;
+}
+
+.epic {
+    width: 14.7rem;
+    border: none;
+    margin: 0px 20px 10px 0px;
+    height: 468px;
+}
+
+.epic .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.epic img {
+    height: 420px;
+}
+
+.epic .card-body h5 {
+    margin-bottom: 0;
+}
+
+.epic .card-body span {
+    color: grey;
+}
+
+.episodetypebtn{
+    
+    /* padding:0px 6px 4px 6px;  */
+    /* color: gray; */
+    background-color:rgb(228, 231, 236) ;
+    color:gray;
+    
+font-size:15px;
+    line-height:35px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+letter-spacing: -1px;
+} 
+
+.episodetypebtn:hover{
+    color:red;
+}
+
+
+
+
+
+/* add.html */
+
+.addshow {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+#loginbody {
+    width: 20%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#loginbody form {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#loginbody form a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+
+    
+}
+
+#loginbody form #stright1 {
+    width: 100%;
+    border-bottom: 1px solid rgba(197, 197, 192, 0.57);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#loginbody form  #stright1 span{
+  background:#fff; 
+                padding:0 10px;
+}
+
+#loginbody form .inputmargin{
+    margin:30px 0px 0px 0px;
+   
+}
+
+.lighttxt{
+    color:rgba(197, 197, 192, 1);
+ 
+
+   
+}
+
+.smallertext{
+    font-size: smaller;
+}
+
+.min92h{
+    min-height: 94.6vh;
+}
+
+
+
+#addcardMain{
+    margin-bottom:300px
+}
+
+
+.addtvShowdiv{
+    text-align:left;
+    height: 40px;
+}
+
+.addtvshowspan{
+    font-weight: bold; font-size:17px
+}
+
+.addtvInputbody{
+    text-align:left;position: relative;
+}
+
+.addtvnameLabel{
+    font-weight: bold; font-size:20px
+}
+
+.addbtnAdd{
+    font-size: 17px; 
+    font-weight:bold; 
+    padding:8px 17px 8px 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Assign full width inputs*/ 
+ input[type=email].icon,
+ input[type=password].icon,
+ input[type=text].icon
+{ 
+     width: 100%; 
+     padding: 12px 40px; 
+     margin: 8px 0; 
+     display: inline-block; 
+     border: 1px solid #ccc; 
+     box-sizing: border-box; 
+ } 
+   
+
+
+
+ 
+   
+
+ /* Set extra style for the cancel button*/ 
+
+
+ .fontemail {
+     position: relative;
+ }
+   
+ .fontemail i{
+     position: absolute;
+     left: 15px;
+     top: 30px;
+     color: gray;
+ }
+   
+ .fontpassword {
+     position: relative;
+ }
+   
+ .fontpassword i{
+     position: absolute;
+     left: 15px;
+     top: 30px;
+     color: gray;
+ }
+
+
+
+
+
+
+
+
+/* signup.html */
+ .fonttext {
+     position: relative;
+ }
+   
+ .fonttext i{
+     position: absolute;
+     left: 15px;
+     top: 30px;
+     color: gray;
+ }
+
+ .signupResult{
+     color:red;
+     position: absolute;
+     left: 0;
+ }
+
+ #signinbody {
+    width: 20%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#signinbody form {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#signinbody form a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+
+    
+}
+
+#signinbody form #stright1 {
+    width: 100%;
+    border-bottom: 1px solid rgba(197, 197, 192, 0.57);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#signinbody form  #stright1 span{
+  background:#fff; 
+                padding:0 10px;
+}
+
+#signinbody form .inputmargin{
+    margin:20px 0px 0px 0px;
+   
+
+
+}
+
+#signinbody form {
+padding-top: 40px;
+   
+
+
+}
+
+ 
+
+
+ /* footer */
+ 
+ .footermove {
+    position: relative;
+    animation: mymove8 18s infinite;
+    animation-delay: 0s;
+    animation-direction: alternate;
+ 
+
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    bottom:0;
+    background: #101025; height:60px;
+
+    
+}
+
+.footerPadding{
+padding-top :20px;
+}
+
+@keyframes mymove8 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 1270px;
+    }
+}
+
+
+
+
+
+
+
+
+/* single show pages */
+.mainBackground{
+    background-color:rgba(71, 71, 104, 0.15);
+}
+.small{
+    font-size:small;
+}
+
+.smaller{
+    font-size:smaller;
+}
+
+.widthFull{
+    width: 100%;
+}
+.mainSingleDiv{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    margin-top:40px;
+}
+
+.margintop10{
+    margin-top:10px;
+}
+
+.showbodyImage{
+    width: 120%;
+    height:280px; 
+    border-radius:4px;
+}
+
+.subscribebtn{
+    width:120%; 
+    margin-top:10px ;
+    font-weight:600; 
+    overflow:hidden;
+    margin-bottom: 15px;
+}
+
+.shownextcol{
+    margin-top:10px;
+    padding-left: 30px; 
+    position: relative"
+}
+
+.singlepageTitle{
+    font-size:28px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.singlepageReview{
+position:absolute;
+right: 0;
+
+color: rgb(169, 68, 66);
+font-size:27px;
+font-weight: 900;
+ margin-right: 20px;
+}
+
+
+.singleshowWeek{
+    font-size:18px;font-weight: 900;
+}
+
+.MontserratSan{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.underline{
+     text-decoration: underline; 
+}
+
+.showDiscrip{
+    font-size:small;
+    font-weight:500; 
+    margin-top:10px;
+    color:rgb(94, 92, 92);
+}
+.showSecondDiv{
+    width:100%;
+ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    margin-top:20px;
+    
+}
+
+.showThirdDive{
+    width:100%; 
+     background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ margin-top:20px;
+}
+
+#nextEpic{
+    padding-left: 20px; 
+    line-height:50px;
+    color:rgba(9, 9, 9, 0.75); 
+     text-shadow: 0 0 3px rgba(104, 198, 238, 0.75);
+                        
+}
+
+.episodee{
+    font-size:smaller;
+    color:rgb(109, 126, 149);
+    font-family: 'Montserrat', sans-serif;
+     font-weight:700;
+}
+.epiThirdCardPadd{
+    padding: 20px 0px 0px 10px;
+}
+
+.epiLeftBorder{
+    border-left: 6px solid black;
+     padding-left:10px;
+}
+.epicInside{
+    font-size:17px;
+    font-weight:bolder;
+}
+
+.episeason{
+
+     color:gray;
+     font-weight:500; 
+     font-size: small; 
+}
+.font-smaler{
+    font-size:smaller;
+}
+
+.font-small{
+    font-size:small;
+}
+
+.epicLast-div{
+    border-left: 6px solid black; 
+    padding-left:10px
+}
+.epic15min{
+    font-size:17px;
+ 
+    font-weight:bolder;
+}
+.epiclastepic{
+    font-family: 'Montserrat', sans-serif;
+     color:gray;
+     font-weight:500;
+     font-size: small; 
+}
+
+
+
+
+
