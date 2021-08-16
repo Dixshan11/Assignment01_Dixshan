@@ -288,7 +288,7 @@ letter-spacing: -1px;
  .fontemail i{
      position: absolute;
      left: 15px;
-     top: 30px;
+     top: 40px;
      color: gray;
  }
    
@@ -299,7 +299,7 @@ letter-spacing: -1px;
  .fontpassword i{
      position: absolute;
      left: 15px;
-     top: 30px;
+     top:40px;
      color: gray;
  }
 
@@ -311,11 +311,36 @@ letter-spacing: -1px;
 
 
 /* signup.html */
- .fonttext {
+
+
+
+
+.fontemaili {
+    position: relative;
+}
+  
+.fontemaili i{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    color: gray;
+}
+  
+.fontpasswordi {
+    position: relative;
+}
+  
+.fontpasswordi i{
+    position: absolute;
+    left: 15px;
+    top:30px;
+    color: gray;
+}
+ .fonttexti{
      position: relative;
  }
    
- .fonttext i{
+ .fonttexti i{
      position: absolute;
      left: 15px;
      top: 30px;
