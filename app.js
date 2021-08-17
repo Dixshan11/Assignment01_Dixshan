@@ -373,72 +373,11 @@ function serchclr(){
 
 
 
-
-
-
-// login validations with json object
-
-$("#login").click(function (e) {
-   e.preventDefault();
-
-   $.ajax({
-
-      url: "userdata.json",
-      dataType: "json",
-      success: function (users) {
-
-         var inputemail = document.getElementById("loginemail").value;
-         var inputpassword = document.getElementById("loginpassword").value;
-
-         for (var i = 0; i < users.length; i++) {
-            if (users[i]["email"] === inputemail && users[i]["password"] === inputpassword) {
-
-               var status="Successfull";
-             
-               $("#errormessage").html("");
-               location.href = "index.html";
-               break;
-
-            } else {
-               if (inputemail === "" || inputpassword === "") {
-                  $("#errormessage").html("");
-                  $("#errormessage").html("please fill the filed");
-                
-             
-
-               }
-               else {
-                  $("#errormessage").html("");
-                  $("#errormessage").html("Invalid username or Password");
-
-                
-             
-               }
-               var status="Unsuccessfull";
-
-            }
-
-         
-            
-         }
-         alert(status);
-      }
-   });
-});
-
-$("#loginspan").click(function (e) {
-   location.href = "login.html";
-}
-
-);
-
-
 // for clear textbox value
 
 $("#loginpassword , #loginemail ,#name").click(function (e){
    $("#errormessage").html("");
-   $("#p01").html("");
- 
+  
 
 
 });

@@ -110,42 +110,41 @@
 
 
 
-
+  <script src="jquery-3.6.0.min.js"></script>
   <script>
 
-    // $("#login").click(function (e) {
-    //   e.preventDefault();
+    $("#login").click(function (e) {
+      e.preventDefault();
 
-    //   let text = localStorage.getItem("allusers");
-    //   let obj = JSON.parse(text);
-    //   alert(obj[1]["name"]);
+      let text = localStorage.getItem("users");
+      let obj = JSON.parse(text);
 
-    //   var inputemail = document.getElementById("loginemail").value;
-    //   var inputpassword = document.getElementById("loginpassword").value;
+      var inputemail = document.getElementById("loginemail").value;
+      var inputpassword = document.getElementById("loginpassword").value;
+ 
+      for (var i = 0; i < obj.length; i++) {
+        if (obj[i]["email"] === inputemail && obj[i]["password"] === inputpassword) {
 
-    //   for (var i = 0; i < users.length; i++) {
-    //     if (users[i]["email"] === inputemail && users[i]["password"] === inputpassword) {
+          alert("Successfull");
+          $("#errormessage").html("");
+          location.href = "index.html";
+          break;
 
-    //       alert("Successfull");
-    //       $("#errormessage").html("");
-    //       location.href = "index.html";
-    //       break;
+        } else {
+          if (inputemail === "" || inputpassword === "") {
+            $("#errormessage").html("");
+            $("#errormessage").html("please fill the filed");
 
-    //     } else {
-    //       if (inputemail === "" || inputpassword === "") {
-    //         $("#errormessage").html("");
-    //         $("#errormessage").html("please fill the filed");
+          }
+          else {
+            $("#errormessage").html("");
+            $("#errormessage").html("Invalid username or Password");
 
-    //       }
-    //       else {
-    //         $("#errormessage").html("");
-    //         $("#errormessage").html("Invalid username or Password");
+          }
+        }
+      }
 
-    //       }
-    //     }
-    //   }
-
-    // });
+    });
 
 
   </script>

@@ -104,7 +104,6 @@
 
 
 
-
     <script src="jquery-3.6.0.min.js"></script>
     <script>
         let users = [];
@@ -124,11 +123,11 @@
             console.warn('added', { users });
            
           
-                localStorage.setItem('allusers', JSON.stringify(users));
+                localStorage.setItem('users', JSON.stringify(users));
               
 
             
-              location.href = "index.html";
+           
              
         }
 
@@ -139,6 +138,7 @@
 
 
     </script>
+
 
 
 
